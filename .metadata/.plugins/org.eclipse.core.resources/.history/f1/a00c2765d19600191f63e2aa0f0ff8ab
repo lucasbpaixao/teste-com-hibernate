@@ -1,0 +1,18 @@
+package com.majority.executaveis;
+
+import com.majority.modelos.Venda;
+
+public class RegistrarVenda {
+
+	public static void main(String[] args) {
+		
+		Venda venda = new Venda();
+		System.out.println("===================");
+		System.out.println("* Registrar Venda *");
+		System.out.println("===================");
+		
+		System.out.print("\nInforme o Id do produto: ");
+
+	}
+
+}

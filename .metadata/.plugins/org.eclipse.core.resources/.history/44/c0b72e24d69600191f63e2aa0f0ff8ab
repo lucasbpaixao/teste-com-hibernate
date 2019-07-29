@@ -1,0 +1,45 @@
+package com.majority.executaveis;
+
+import java.util.List;
+import java.util.Scanner;
+
+import com.majority.dao.EstoqueDAO;
+import com.majority.dao.ProdutoDAO;
+import com.majority.modelos.Produto;
+import com.majority.modelos.Venda;
+
+public class ListarVendas {
+
+	public static void main(String[] args) {
+		Scanner s = new Scanner(System.in);
+
+		System.out.println("=================");
+		System.out.println("* Listar Vendas *");
+		System.out.println("=================");
+
+		System.out.println();
+		
+		EstoqueDAO dao = new EstoqueDAO();
+		List<Venda> vendas = dao.listarVendas();
+
+		System.out.println();
+		
+		if (!vendas.isEmpty()) {
+			for (Venda venda : vendas) {
+				System.out.println("==============================================");
+				System.out.println("Id: " + venda.getId());
+				System.out.println("Data da venda: " + venda.getDataVenda());
+				System.out.println("Id: " + venda.getId());
+				System.out.println("Id: " + venda.getId());
+				System.out.println("==============================================");
+
+			}
+		}else {
+			System.out.println("Não há produtos cadastrados");
+			
+		}
+			
+
+	}
+
+}

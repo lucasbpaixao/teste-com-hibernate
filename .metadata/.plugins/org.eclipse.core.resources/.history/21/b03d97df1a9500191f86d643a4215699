@@ -1,0 +1,22 @@
+package com.majority.executaveis;
+
+import java.util.Scanner;
+
+import com.majority.modelos.Produto;
+
+public class CadastroDeProduto {
+
+	public static void main(String[] args) {
+
+		Produto produto = new Produto();
+		Scanner s = new Scanner(System.in);
+		System.out.println("=======================");
+		System.out.println("* Cadastro de Produto *");
+		System.out.println("=======================");
+		
+		System.out.print("\nInforme o nome do produto: ");
+		
+		
+	}
+
+}

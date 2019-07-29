@@ -1,0 +1,10 @@
+package com.majority.executaveis;
+
+public class AlterarProduto {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

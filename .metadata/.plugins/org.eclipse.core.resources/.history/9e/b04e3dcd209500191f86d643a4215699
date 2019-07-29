@@ -1,0 +1,21 @@
+package com.majority.executaveis;
+
+import java.util.List;
+
+import com.majority.dao.ProdutoDAO;
+import com.majority.modelos.Produto;
+
+public class ListarProdutos {
+
+	public static void main(String[] args) {
+		
+		System.out.println("===================");
+		System.out.println("* Excluir Produto *");
+		System.out.println("===================");
+		
+		ProdutoDAO dao = new ProdutoDAO();
+		List<Produto> produtos = dao.listarProdutos();
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.majority.executaveis;
+
+public class ListarProdutos {
+
+	public static void main(String[] args) {
+		
+		System.out.println("===================");
+		System.out.println("* Excluir Produto *");
+		System.out.println("===================");
+
+	}
+
+}

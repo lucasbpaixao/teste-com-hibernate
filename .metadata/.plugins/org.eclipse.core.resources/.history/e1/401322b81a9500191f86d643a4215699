@@ -1,0 +1,13 @@
+package com.majority.executaveis;
+
+public class CadastroDeProduto {
+
+	public static void main(String[] args) {
+
+		System.out.println("=======================");
+		System.out.println("* Cadastro de Produto *");
+		System.out.println("=======================");
+		
+	}
+
+}

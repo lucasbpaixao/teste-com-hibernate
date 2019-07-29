@@ -1,0 +1,12 @@
+package com.majority.dao;
+
+import com.majority.modelos.Produto;
+
+public class CadastroProdutoDAO {
+
+	public static void cadatroProduto(Produto produto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

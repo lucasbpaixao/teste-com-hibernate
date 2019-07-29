@@ -1,0 +1,22 @@
+package com.majority.dao;
+
+import javax.persistence.EntityManager;
+
+import com.majority.UtilJPA.UtilJPA;
+import com.majority.modelos.Produto;
+
+public class CadastroProdutoDAO {
+	
+	private EntityManager em;
+	
+	public CadastroProdutoDAO(){
+		em = new UtilJPA().getEntityManager();
+		em.getTransaction().begin();
+	}
+
+	public static void cadatroProduto(Produto produto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+log4j.category.org.hibernate=OFF
+log4j.appender.rolling1=org.apache.log4j.ConsoleAppender
+log4j.appender.rolling1.layout=org.apache.log4j.PatternLayout
+log4j.appender.rolling1.layout.ConversionPattern=%5p (%F:%L) - %m%n
+
+#Hibernate file append
+log4j.appender.fileOutHiber = biz.minaret.log4j.DatedFileAppender
+log4j.appender.fileOutHiber.Threshold=DEBUG
+log4j.appender.fileOutHiber.layout=org.apache.log4j.PatternLayout
+log4j.appender.fileOutHiber.layout.ConversionPattern=%5p [%r] %-2d{dd/MM/yyyy HH:mm:ss} [Thread: %t] %c:%L - %m%n
+log4j.appender.fileOutHiber.Directory=.
+log4j.appender.fileOutHiber.Prefix=TheMist_Hibernate_
+log4j.appender.fileOutHiber.Suffix=.log
+
+#Applicacao file appender
+log4j.appender.fileOutApp = biz.minaret.log4j.DatedFileAppender
+log4j.appender.fileOutApp.Threshold=DEBUG
+log4j.appender.fileOutApp.layout=org.apache.log4j.PatternLayout
+log4j.appender.fileOutApp.layout.ConversionPattern=%5p [%r] %-2d{dd/MM/yyyy HH:mm:ss} [Thread: %t] %c:%L - %m%n
+log4j.appender.fileOutApp.Directory=.
+log4j.appender.fileOutApp.Prefix=TheMist_App_
+log4j.appender.fileOutApp.Suffix=.log[/code]
+
+log4j.logger.br.com.themist=DEBUG, rolling1, fileOutApp
+log4j.logger.org.apache.mina=DEBUG, rolling1, fileOutApp
+
+log4j.logger.org.hibernate=DEBUG, fileOutHiber

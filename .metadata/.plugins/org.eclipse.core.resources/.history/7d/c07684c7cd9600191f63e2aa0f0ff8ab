@@ -1,0 +1,13 @@
+package com.majority.executaveis;
+
+public class RegistrarEntrada {
+
+	public static void main(String[] args) {
+		
+		System.out.println("================================");
+		System.out.println("* Registrar Entrada no Estoque *");
+		System.out.println("================================");
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.majority.modelos;
+
+public class EstoqueDAO {
+
+	public void registrarEntada(Produto produto) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

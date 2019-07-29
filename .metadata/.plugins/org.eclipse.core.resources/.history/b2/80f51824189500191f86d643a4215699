@@ -1,0 +1,6 @@
+package com.majority.modelos;
+
+public enum TipoDeCalculo {
+	
+
+}

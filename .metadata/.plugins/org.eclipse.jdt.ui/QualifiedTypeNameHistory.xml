@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+<fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+<fullyQualifiedTypeName name="com.majority.UtilJPA.UtilJPA"/>
+<fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+<fullyQualifiedTypeName name="com.majority.validadores.ValidaUsuario"/>
+<fullyQualifiedTypeName name="com.majority.executaveis.CadastroDeUsuario"/>
+<fullyQualifiedTypeName name="org.hsqldb.Scanner"/>
+<fullyQualifiedTypeName name="com.majority.modelos.Usuario"/>
+<fullyQualifiedTypeName name="com.majority.dao.UsuarioDAO"/>
+<fullyQualifiedTypeName name="com.majority.dao.CadastroProdutoDAO"/>
+<fullyQualifiedTypeName name="com.majority.executaveis.CadastroDeProduto"/>
+<fullyQualifiedTypeName name="com.majority.executaveis.AlterarProduto"/>
+<fullyQualifiedTypeName name="com.majority.executaveis.ExcluirProduto"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.persistence.Query"/>
+<fullyQualifiedTypeName name="com.majority.executaveis.MenuPrincipal"/>
+<fullyQualifiedTypeName name="com.majority.executaveis.Index"/>
+<fullyQualifiedTypeName name="com.majority.executaveis.RegistrarEntrada"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.Temporal"/>
+<fullyQualifiedTypeName name="javax.persistence.TemporalType"/>
+<fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="com.majority.modelos.Produto"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+<fullyQualifiedTypeName name="com.majority.dao.EstoqueDAO"/>
+<fullyQualifiedTypeName name="com.majority.modelos.Venda"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+</qualifiedTypeNameHistroy>

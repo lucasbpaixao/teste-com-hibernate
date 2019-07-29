@@ -1,0 +1,14 @@
+package com.majority.executaveis;
+
+public class MenuPrincipal {
+
+	public static void main(String[] args) {
+		System.out.println("====================================");
+		System.out.println("*         Menu principal           *");
+		System.out.println("====================================");
+		System.out.println("* 1 - Cadastro de Produtos         *");
+		System.out.println("* 2 - Registrar Venda              *");
+		System.out.println("* 3 - Registrar Entrada no Estoque *");
+	}
+
+}
